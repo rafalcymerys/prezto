@@ -15,4 +15,17 @@ export EDITOR=vim
 export VISUAL=vim
 
 # Aliases
+alias be="bundle exec"
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+export PATH="$PATH:$(yarn global bin)"
+
+export PATH=$PATH:/usr/local/m-cli
+
+# Git
 alias g=git
+alias grh="git reset --hard"
+alias gf="git fetch"
+alias gfm="git fetch && git checkout master && git reset --hard origin/master"
+
